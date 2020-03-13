@@ -25,4 +25,3 @@ pth = '/home/william/Desktop/'
 
 with open(pth + 'requirements.txt', 'w+') as file:
     [file.write(str(item).replace("'", "") + "\n") for item in tr]
-

@@ -98,4 +98,3 @@ pth = '/home/william/Desktop/'
 with open(pth + 'requirements.txt', 'w+') as file:
     for item in packages:
         file.write(str(item).replace("'", "") + "\n")
-
