@@ -15,11 +15,13 @@ trs = soup.select('table tr')
 
 trs = [list(trs) for trs in trs]
 
-trs = [trs[i][j] for i in range(len(trs)) if
-       ("conda" not in str(trs[i]).lower() and "name" not in str(trs[i]).lower())
+trs = [trs[i][j] for i in range(len(trs))
+       if("conda" not in str(trs[i]).lower()
+          and "name" not in str(trs[i]).lower())
        for j in range(len(trs[i])) if j == 1]
 
-tr = [trs[i].text.strip() for i in range(len(trs)) if not str(trs[i]).startswith('_')]
+tr = [trs[i].text.strip() for i in range(len(trs))
+      if not str(trs[i]).startswith('_')]
 
 pth = '/home/william/Desktop/'
 

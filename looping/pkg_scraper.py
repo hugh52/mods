@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 '''
-==============================================================================
+=============================================================================
 quick explanation: the following script pulls all packages associated with 
 some specifc anaconda release and operating system, puts them into a list, 
 removes all the anaconda specifc packages, and outputs the contents to a file
@@ -15,7 +15,7 @@ environment. the script below is for python version 3.7 running on a
 linux 64-bit os; this can be changed by choosing a different combination from
 "https://docs.anaconda.com/anaconda/packages/", which is the website that
 provides the table from which we are pulling (or "scraping") the data.
-==============================================================================
+=============================================================================
 '''
 
 
@@ -58,7 +58,8 @@ liblist = []
 # and the second index is equivalent to 1),
 # then we append the data to the empty list 'l'
 for i in range(len(trs)):
-    if "conda" not in str(trs[i]).lower() and "name" not in str(trs[i]).lower():
+    if "conda" not in str(trs[i]).lower() \
+            and "name" not in str(trs[i]).lower():
         for j in range(len(trs[i])):
             if j == 1:
                 liblist.append(trs[i][j])
