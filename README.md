@@ -6,28 +6,32 @@
 
 ----------------------------------------------------------------------------------------------------
 
-    [ ] make actual separate 'TODO.txt' or 'TODO.md' file to remove this from 'README'
-    [ ] include installation instructions with 'README' (add after adding PyPI, conda ability)
-    [ ] add 'setup.py' and 'make' files (and any others) needed for installation after download 
-    [ ] create documentation, most likely using Sphinx
-    [ ] run all available tests
-    [ ] install and setup everything necessary for continuous integration and testing
-    [ ] commit/push data directory with sample files for examples
-    [ ] provide screenshot showing the version printouts and include 'requirements.txt' explanation 
-    [ ] add explanation concerning 'beautifulsoup4' or 'bs4' download, installation, and import
-    [ ] add explanation of 're' and 'requests' download, install, and imports (now included with py)
-    [ ] update and add to '.gitignore' file to include all defaults and essential exclude files
-    [ ] build and commit/push new scripts with easier capabilities for user to choose or input py
-     version, architecture, path(s), files, etc. through GUI or pop-up type interface, instead of
-     having to alter actual code
-    [ ] eventually put scripts into function or class format to simplify use, etc.
-    [ ] add '__init__.py' files to enable import ability (to allow for use with older py versions) 
-    [ ] register to 'PyPI', with all scripts bundled, to enable 'pip install' ability
-    [ ] use 'conda_build', with all scripts bundled, to enable 'conda install' ability
-    
+- [ ] make actual separate 'TODO.txt' or 'TODO.md' file to remove this from 'README'
+- [ ] include installation instructions with 'README' (add after adding PyPI, conda ability)
+- [ ] add 'setup.py' and 'make' files (and any others) needed for installation after download 
+- [ ] create documentation, most likely using Sphinx
+- [ ] run all available tests
+- [ ] install and setup everything necessary for continuous integration and testing
+- [ ] commit/push data directory with sample files for examples
+- [ ] provide screenshot showing the version printouts and include 'requirements.txt' explanation 
+- [ ] add explanation concerning 'beautifulsoup4' or 'bs4' download, installation, and import
+- [ ] add explanation of 're' and 'requests' download, install, and imports (now included with py)
+- [ ] update and add to '.gitignore' file to include all defaults and essential exclude files
+- [ ] build and commit/push new scripts with easier capabilities for user to choose or input py
+        version, architecture, path(s), files, etc. through GUI or pop-up type interface, instead of
+        having to alter actual code
+- [ ] eventually put scripts into function or class format to simplify use, etc.
+- [ ] add '__init__.py' files to enable import ability (to allow for use with older py versions) 
+- [ ] register to 'PyPI', with all scripts bundled, to enable 'pip install' ability
+- [ ] use 'conda_build', with all scripts bundled, to enable 'conda install' ability
+
+----------------------------------------------------------------------------------------------------
     
 ## **Installation** ##
 
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
 
 ## **General Explanation** ##
 
@@ -41,12 +45,12 @@ could help someone out that happens to stumble along this page, even if it just 
 them with a way to fix a recent syntax or other problem they have been facing with their code.
 With that being said, below are two brief explanations of these scripts:
 
-    pkg_scraper.py and pkg_scraper_eff.py
-    * pull information from a website (in this case python package names), do some formatting to the
+   pkg_scraper.py and pkg_scraper_eff.py
+   * pull information from a website (in this case python package names), do some formatting to the
     information, then output that info to file on the user's computer for later use.
     
-    pkg_names.py and pkg_names_eff.py
-    * given a list of information (in this case python packages with version constraints) in a file
+   pkg_names.py and pkg_names_eff.py
+   * given a list of information (in this case python packages with version constraints) in a file
     on the user's computer, again apply some formatting to the info (in the form of regular 
     expressions), in order to again output the information to a file on the user's computer.
      
